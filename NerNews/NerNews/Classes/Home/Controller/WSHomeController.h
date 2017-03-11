@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  WSHomeController.h
 //  NerNews
 //
-//  Created by wangchen on 17/3/10.
+//  Created by wangchen on 17/3/11.
 //  Copyright © 2017年 王晨. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WSHomeController : UIViewController
 
 @end
-

@@ -10,10 +10,10 @@
 		283734F8559AC352E355C6A6 /* libPods-NerNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF69313DF2E9BFF762930DD0 /* libPods-NerNews.a */; };
 		669B553A1E72BA610026153E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 669B55391E72BA610026153E /* main.m */; };
 		669B553D1E72BA610026153E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 669B553C1E72BA610026153E /* AppDelegate.m */; };
-		669B55401E72BA610026153E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669B553F1E72BA610026153E /* ViewController.m */; };
 		669B55431E72BA610026153E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669B55411E72BA610026153E /* Main.storyboard */; };
 		669B55451E72BA610026153E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669B55441E72BA610026153E /* Assets.xcassets */; };
 		669B55481E72BA610026153E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669B55461E72BA610026153E /* LaunchScreen.storyboard */; };
+		66E4D5BF1E7421BF006F48BA /* WSHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5BE1E7421BF006F48BA /* WSHomeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +22,12 @@
 		669B55391E72BA610026153E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		669B553B1E72BA610026153E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		669B553C1E72BA610026153E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		669B553E1E72BA610026153E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		669B553F1E72BA610026153E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		669B55421E72BA610026153E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		669B55441E72BA610026153E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669B55471E72BA610026153E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		669B55491E72BA610026153E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E4D5BD1E7421BF006F48BA /* WSHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHomeController.h; sourceTree = "<group>"; };
+		66E4D5BE1E7421BF006F48BA /* WSHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeController.m; sourceTree = "<group>"; };
 		CF69313DF2E9BFF762930DD0 /* libPods-NerNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NerNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15FFE793D814156199453AB /* Pods-NerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NerNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NerNews/Pods-NerNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,14 +65,7 @@
 		669B55371E72BA610026153E /* NerNews */ = {
 			isa = PBXGroup;
 			children = (
-				669B553B1E72BA610026153E /* AppDelegate.h */,
-				669B553C1E72BA610026153E /* AppDelegate.m */,
-				669B553E1E72BA610026153E /* ViewController.h */,
-				669B553F1E72BA610026153E /* ViewController.m */,
-				669B55411E72BA610026153E /* Main.storyboard */,
-				669B55441E72BA610026153E /* Assets.xcassets */,
-				669B55461E72BA610026153E /* LaunchScreen.storyboard */,
-				669B55491E72BA610026153E /* Info.plist */,
+				66E4D5B81E74214C006F48BA /* Classes */,
 				669B55381E72BA610026153E /* Supporting Files */,
 			);
 			path = NerNews;
@@ -81,9 +74,56 @@
 		669B55381E72BA610026153E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				669B55461E72BA610026153E /* LaunchScreen.storyboard */,
+				669B55441E72BA610026153E /* Assets.xcassets */,
+				669B55411E72BA610026153E /* Main.storyboard */,
+				669B553B1E72BA610026153E /* AppDelegate.h */,
+				669B553C1E72BA610026153E /* AppDelegate.m */,
 				669B55391E72BA610026153E /* main.m */,
+				669B55491E72BA610026153E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66E4D5B81E74214C006F48BA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66E4D5B91E74214C006F48BA /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		66E4D5B91E74214C006F48BA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				66E4D5BA1E74214C006F48BA /* Controller */,
+				66E4D5BB1E74214C006F48BA /* Model */,
+				66E4D5BC1E74214C006F48BA /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		66E4D5BA1E74214C006F48BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66E4D5BD1E7421BF006F48BA /* WSHomeController.h */,
+				66E4D5BE1E7421BF006F48BA /* WSHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66E4D5BB1E74214C006F48BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66E4D5BC1E74214C006F48BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		ACF38D3682EB6AE58637D094 /* Frameworks */ = {
@@ -132,6 +172,7 @@
 		669B552D1E72BA610026153E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WS;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "王晨";
 				TargetAttributes = {
@@ -225,8 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				669B55401E72BA610026153E /* ViewController.m in Sources */,
 				669B553D1E72BA610026153E /* AppDelegate.m in Sources */,
+				66E4D5BF1E7421BF006F48BA /* WSHomeController.m in Sources */,
 				669B553A1E72BA610026153E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +431,7 @@
 				669B554E1E72BA610026153E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
