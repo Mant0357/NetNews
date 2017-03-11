@@ -14,6 +14,15 @@
 		669B55451E72BA610026153E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669B55441E72BA610026153E /* Assets.xcassets */; };
 		669B55481E72BA610026153E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669B55461E72BA610026153E /* LaunchScreen.storyboard */; };
 		66E4D5BF1E7421BF006F48BA /* WSHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5BE1E7421BF006F48BA /* WSHomeController.m */; };
+		66E4D5C11E7423D1006F48BA /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E4D5C01E7423D1006F48BA /* topic_news.json */; };
+		66E4D5D21E7428ED006F48BA /* NSArray+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5C41E7428ED006F48BA /* NSArray+CZAddition.m */; };
+		66E4D5D31E7428ED006F48BA /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5C61E7428ED006F48BA /* NSArray+Log.m */; };
+		66E4D5D41E7428ED006F48BA /* NSObject+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5C81E7428ED006F48BA /* NSObject+CZAddition.m */; };
+		66E4D5D51E7428ED006F48BA /* UIColor+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5CA1E7428ED006F48BA /* UIColor+HMAddition.m */; };
+		66E4D5D61E7428ED006F48BA /* UILabel+WHAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5CC1E7428ED006F48BA /* UILabel+WHAdditions.m */; };
+		66E4D5D71E7428ED006F48BA /* NSArray+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5CF1E7428ED006F48BA /* NSArray+CZAddition.m */; };
+		66E4D5D81E7428ED006F48BA /* NSObject+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5D11E7428ED006F48BA /* NSObject+CZAddition.m */; };
+		66E4D5DB1E7429EF006F48BA /* WSKindNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4D5DA1E7429EF006F48BA /* WSKindNewsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,23 @@
 		669B55491E72BA610026153E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66E4D5BD1E7421BF006F48BA /* WSHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHomeController.h; sourceTree = "<group>"; };
 		66E4D5BE1E7421BF006F48BA /* WSHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHomeController.m; sourceTree = "<group>"; };
+		66E4D5C01E7423D1006F48BA /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		66E4D5C31E7428ED006F48BA /* NSArray+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CZAddition.h"; sourceTree = "<group>"; };
+		66E4D5C41E7428ED006F48BA /* NSArray+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CZAddition.m"; sourceTree = "<group>"; };
+		66E4D5C51E7428ED006F48BA /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		66E4D5C61E7428ED006F48BA /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		66E4D5C71E7428ED006F48BA /* NSObject+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZAddition.h"; sourceTree = "<group>"; };
+		66E4D5C81E7428ED006F48BA /* NSObject+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZAddition.m"; sourceTree = "<group>"; };
+		66E4D5C91E7428ED006F48BA /* UIColor+HMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HMAddition.h"; sourceTree = "<group>"; };
+		66E4D5CA1E7428ED006F48BA /* UIColor+HMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMAddition.m"; sourceTree = "<group>"; };
+		66E4D5CB1E7428ED006F48BA /* UILabel+WHAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WHAdditions.h"; sourceTree = "<group>"; };
+		66E4D5CC1E7428ED006F48BA /* UILabel+WHAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WHAdditions.m"; sourceTree = "<group>"; };
+		66E4D5CE1E7428ED006F48BA /* NSArray+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CZAddition.h"; sourceTree = "<group>"; };
+		66E4D5CF1E7428ED006F48BA /* NSArray+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CZAddition.m"; sourceTree = "<group>"; };
+		66E4D5D01E7428ED006F48BA /* NSObject+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZAddition.h"; sourceTree = "<group>"; };
+		66E4D5D11E7428ED006F48BA /* NSObject+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZAddition.m"; sourceTree = "<group>"; };
+		66E4D5D91E7429EF006F48BA /* WSKindNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSKindNewsModel.h; sourceTree = "<group>"; };
+		66E4D5DA1E7429EF006F48BA /* WSKindNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSKindNewsModel.m; sourceTree = "<group>"; };
 		CF69313DF2E9BFF762930DD0 /* libPods-NerNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NerNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15FFE793D814156199453AB /* Pods-NerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NerNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NerNews/Pods-NerNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +91,7 @@
 		669B55371E72BA610026153E /* NerNews */ = {
 			isa = PBXGroup;
 			children = (
+				66E4D5C21E7428ED006F48BA /* Common */,
 				66E4D5B81E74214C006F48BA /* Classes */,
 				669B55381E72BA610026153E /* Supporting Files */,
 			);
@@ -74,6 +101,7 @@
 		669B55381E72BA610026153E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				66E4D5C01E7423D1006F48BA /* topic_news.json */,
 				669B55461E72BA610026153E /* LaunchScreen.storyboard */,
 				669B55441E72BA610026153E /* Assets.xcassets */,
 				669B55411E72BA610026153E /* Main.storyboard */,
@@ -115,6 +143,8 @@
 		66E4D5BB1E74214C006F48BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				66E4D5D91E7429EF006F48BA /* WSKindNewsModel.h */,
+				66E4D5DA1E7429EF006F48BA /* WSKindNewsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +154,35 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		66E4D5C21E7428ED006F48BA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				66E4D5C31E7428ED006F48BA /* NSArray+CZAddition.h */,
+				66E4D5C41E7428ED006F48BA /* NSArray+CZAddition.m */,
+				66E4D5C51E7428ED006F48BA /* NSArray+Log.h */,
+				66E4D5C61E7428ED006F48BA /* NSArray+Log.m */,
+				66E4D5C71E7428ED006F48BA /* NSObject+CZAddition.h */,
+				66E4D5C81E7428ED006F48BA /* NSObject+CZAddition.m */,
+				66E4D5C91E7428ED006F48BA /* UIColor+HMAddition.h */,
+				66E4D5CA1E7428ED006F48BA /* UIColor+HMAddition.m */,
+				66E4D5CB1E7428ED006F48BA /* UILabel+WHAdditions.h */,
+				66E4D5CC1E7428ED006F48BA /* UILabel+WHAdditions.m */,
+				66E4D5CD1E7428ED006F48BA /* 解析跟数组 单字典 */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		66E4D5CD1E7428ED006F48BA /* 解析跟数组 单字典 */ = {
+			isa = PBXGroup;
+			children = (
+				66E4D5CE1E7428ED006F48BA /* NSArray+CZAddition.h */,
+				66E4D5CF1E7428ED006F48BA /* NSArray+CZAddition.m */,
+				66E4D5D01E7428ED006F48BA /* NSObject+CZAddition.h */,
+				66E4D5D11E7428ED006F48BA /* NSObject+CZAddition.m */,
+			);
+			path = "解析跟数组 单字典";
 			sourceTree = "<group>";
 		};
 		ACF38D3682EB6AE58637D094 /* Frameworks */ = {
@@ -207,6 +266,7 @@
 			files = (
 				669B55481E72BA610026153E /* LaunchScreen.storyboard in Resources */,
 				669B55451E72BA610026153E /* Assets.xcassets in Resources */,
+				66E4D5C11E7423D1006F48BA /* topic_news.json in Resources */,
 				669B55431E72BA610026153E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,9 +326,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E4D5D71E7428ED006F48BA /* NSArray+CZAddition.m in Sources */,
+				66E4D5D41E7428ED006F48BA /* NSObject+CZAddition.m in Sources */,
+				66E4D5D31E7428ED006F48BA /* NSArray+Log.m in Sources */,
 				669B553D1E72BA610026153E /* AppDelegate.m in Sources */,
 				66E4D5BF1E7421BF006F48BA /* WSHomeController.m in Sources */,
 				669B553A1E72BA610026153E /* main.m in Sources */,
+				66E4D5D81E7428ED006F48BA /* NSObject+CZAddition.m in Sources */,
+				66E4D5D51E7428ED006F48BA /* UIColor+HMAddition.m in Sources */,
+				66E4D5D21E7428ED006F48BA /* NSArray+CZAddition.m in Sources */,
+				66E4D5D61E7428ED006F48BA /* UILabel+WHAdditions.m in Sources */,
+				66E4D5DB1E7429EF006F48BA /* WSKindNewsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

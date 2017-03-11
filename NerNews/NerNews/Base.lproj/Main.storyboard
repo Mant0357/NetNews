@@ -77,10 +77,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="网易新闻" id="Bhs-2t-5Xw"/>
                     <connections>
-                        <outlet property="flowLayout" destination="hcU-va-op6" id="uIu-yj-5Aj"/>
-                        <outlet property="kindNewsScrollView" destination="h0G-2X-TAX" id="cTL-EI-MkM"/>
-                        <outlet property="newsDetailCollView" destination="dK1-i8-bIp" id="ndE-vZ-ep7"/>
-                        <outlet property="newsDetailsCollectionView" destination="dK1-i8-bIp" id="lQt-JI-4m8"/>
+                        <outlet property="flowLayout" destination="hcU-va-op6" id="uG6-yJ-b8q"/>
+                        <outlet property="kindNewsScrollView" destination="h0G-2X-TAX" id="olk-hH-zdA"/>
+                        <outlet property="newsDetailsCollectionView" destination="dK1-i8-bIp" id="LHO-S8-RQG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cq-rI-Jch" userLabel="First Responder" sceneMemberID="firstResponder"/>
