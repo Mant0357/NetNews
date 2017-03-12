@@ -19,6 +19,8 @@
 //字典转对象构造方法
 - (instancetype)kindWithDict:(NSDictionary *)dict;
 
++ (NSArray *)getKindModelArray;
+
 @end
 
 //(
